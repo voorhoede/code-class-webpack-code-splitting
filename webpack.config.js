@@ -25,5 +25,10 @@ module.exports = {
         ...initialData,
       template: 'index.ejs'
     }),
-  ]
+  ],
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: 'all',
+  //   }
+  // }
 };

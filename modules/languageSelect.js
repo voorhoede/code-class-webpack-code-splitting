@@ -1,13 +1,11 @@
-import decamelize from 'decamelize'; // TODO: split & load decamelize async
-import nl from './i18n/nl';
-import en from './i18n/en';
+export const getDecamelized = () => import('decamelize');
 
 const initLanguageSelect = () => {
   const languageSelect = document.querySelector('[data-language-select]');
 
   if (languageSelect) {
     window.currentLanguage = languageSelect.value;
-    languageSelect.addEventListener('change', onLanguageChanged);
+    languageSelect.addEventListener('change', onLanguageChanged)
   }
 };
 
@@ -17,21 +15,26 @@ function onLanguageChanged(e) {
   let languageFile;
   switch (selectedLanguage) {
     case 'nl':
-      languageFile = nl;
+      import('./i18n/nl').then(file => {
+        languageFile = file.default;
+      });
       break;
-
     case 'en':
-      languageFile = en;
+      import('./i18n/en').then(file => {
+        languageFile = file.default;
+      });
       break;
   }
 
-  Object.keys(languageFile).forEach(key => {
-    const i18nElement = document.querySelector(`[data-i18n-${decamelize(key, '-')}]`);
+  getDecamelized().then(decamelize => {
+    Object.keys(languageFile).forEach(key => {
+      const i18nElement = document.querySelector(`[data-i18n-${decamelize.default(key, '-')}]`);
 
-    if (i18nElement) {
-      i18nElement.textContent = languageFile[key]
-    }
-  })
+      if (i18nElement) {
+        i18nElement.textContent = languageFile[key]
+      }
+    })
+  });
 }
 
 export default initLanguageSelect;
