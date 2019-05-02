@@ -1,5 +1,5 @@
 import { getDecamelized } from './languageSelect';
-const getBlogPost = () => import('./i18n/nl/bouwen-is-macht');
+const getCasePage = (casePage, lang) => import(`./i18n/${lang}/${casePage}`);
 
 const initCaseSelect = () => {
   const caseSelect = document.querySelector('[data-case-select]');
@@ -13,7 +13,7 @@ function onCaseChanged(e) {
   const selectedCase = e.target.value;
   const currentLang = window.currentLanguage;
 
-  getBlogPost().then(blogPost => {
+  getCasePage(selectedCase, currentLang).then(blogPost => {
     const data = blogPost.default.page;
 
     getDecamelized().then(decamelize => {
