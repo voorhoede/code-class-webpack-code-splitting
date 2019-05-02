@@ -1,0 +1,23 @@
+<h1 data-i18n-title><%= htmlWebpackPlugin.options.title %></h1>
+
+<form data-form>
+  <label for="language-select" data-i18n-language-select><%= htmlWebpackPlugin.options.languageSelect %></label>
+  <select id="language-select" data-language-select>
+    <option value="nl" selected>Nederlands</option>
+    <option value="en">Engels</option>
+  </select>
+
+  <label for="case-select" data-i18n-case-select><%= htmlWebpackPlugin.options.caseSelect %></label>
+  <select id="case-select" data-case-select>
+    <option value="" selected></option>
+    <% htmlWebpackPlugin.options.items.forEach(item => { %>
+      <option value="<%= item.slug %>"><%= item.title %></option>
+    <% }) %>
+  </select>
+</form>
+
+
+<main>
+  <h1 data-case-title></h1>
+  <p data-case-content></p>
+</main>

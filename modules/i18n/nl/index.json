@@ -1,0 +1,127 @@
+{
+  "title": "Bundel splitten",
+  "languageSelect": "Verander taal",
+  "caseSelect": "Selecteer project",
+  "items": [
+    {
+      "slug": "bouwen-is-macht",
+      "title": "Bouwen is Macht",
+      "subtitle": "Onderzoeksjournalistiek in spelvorm",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542184460-bouwen-is-macht.svg",
+        "format": "svg",
+        "alt": "Bouwen is macht"
+      }
+    },
+    {
+      "slug": "world-water-atlas",
+      "title": "World Water Atlas",
+      "subtitle": "Verhalen over waterproblematiek van over de hele wereld",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542197806-world-water-atlas.svg",
+        "format": "svg",
+        "alt": "World water atlas"
+      }
+    },
+    {
+      "slug": "pick-up-10",
+      "title": "Pick Up 10",
+      "subtitle": "Van hack naar app",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1538570990-pick-up-10.svg",
+        "format": "svg",
+        "alt": "Pick up ten"
+      }
+    },
+    {
+      "slug": "hike-one",
+      "title": "Hike One",
+      "subtitle": "Snel, flitsend en met veel content",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542198226-hike-one.svg",
+        "format": "svg",
+        "alt": "Hike One"
+      }
+    },
+    {
+      "slug": "tradus",
+      "title": "Tradus",
+      "subtitle": "Supersnelle launch met een team van specialisten",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542186338-tradus.svg",
+        "format": "svg",
+        "alt": "Tradus"
+      }
+    },
+    {
+      "slug": "trouw",
+      "title": "Trouw, Volkskrant en Parool",
+      "subtitle": "Eén app strategie voor meerdere merken",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542197587-de-persgroep.svg",
+        "format": "svg",
+        "alt": "de persgroep"
+      }
+    },
+    {
+      "slug": "npo-dashboard",
+      "title": "NPO Dashboard",
+      "subtitle": "Helder inzicht in realtime bezoekersstatistieken",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1539866631-npo-dashboard.svg",
+        "format": "svg",
+        "alt": "npo dashboard"
+      }
+    },
+    {
+      "slug": "rtl-weekend-magazine",
+      "title": "RTL Weekend Magazine",
+      "subtitle": "Van app naar web",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1539870467-rtl-weekend-magazine.svg",
+        "format": "svg",
+        "alt": "rtl magazine"
+      }
+    },
+    {
+      "slug": "2dehands-be",
+      "title": "2dehands.be",
+      "subtitle": "De snelste marktplaats van België",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1539871378-2ehands.svg",
+        "format": "svg",
+        "alt": "tweede hands"
+      }
+    },
+    {
+      "slug": "swipe-and-shop",
+      "title": "Swipe & Shop",
+      "subtitle": "Ontdek en shop nieuwe fashion met deze hybride app",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542187394-swipe-and-shop.svg",
+        "format": "svg",
+        "alt": "swipe en shop"
+      }
+    },
+    {
+      "slug": "giftforyou",
+      "title": "GiftForYou",
+      "subtitle": "Verzilver cadeaus met je camera",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1542188853-gift-for-you.svg",
+        "format": "svg",
+        "alt": "gift for you"
+      }
+    },
+    {
+      "slug": "commtrac",
+      "title": "Commtrac",
+      "subtitle": "Beheer scheepsterminals wereldwijd vanuit de browser",
+      "heroIllustration": {
+        "url": "https://www.datocms-assets.com/6524/1539938877-commtrac.svg",
+        "format": "svg",
+        "alt": "commtrac"
+      }
+    }
+  ]
+}

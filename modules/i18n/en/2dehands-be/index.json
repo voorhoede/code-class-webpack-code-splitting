@@ -1,0 +1,99 @@
+{
+  "page": {
+    "title": "2dehands.be",
+    "slug": "2dehands-be",
+    "i18nSlugs": [
+      {
+        "locale": "en",
+        "value": "2dehands-be"
+      },
+      {
+        "locale": "nl",
+        "value": "2dehands-be"
+      }
+    ],
+    "social": {
+      "title": "2dehands.be | De Voorhoede",
+      "description": "The quickest marketplace in Belgium",
+      "image": null
+    },
+    "keywords": "ads, progressive enhancement, browser scope, responsive, 2dehands.be",
+    "heroIllustration": {
+      "url": "https://www.datocms-assets.com/6524/1539871378-2ehands.svg",
+      "format": "svg",
+      "alt": "tweede hands"
+    },
+    "caseTeaser": {
+      "title": "The quickest marketplace in Belgium",
+      "image": {
+        "url": "https://www.datocms-assets.com/6524/1539871533-2ehands.png",
+        "format": "png",
+        "alt": null,
+        "width": 1983,
+        "height": 1246
+      }
+    },
+    "content": [
+      {
+        "__typename": "TextSectionRecord",
+        "title": "The challenge: quickly place a classified ad from any device",
+        "body": "<p>On 2dehands.be, people can buy and sell used products. With 720.000 daily visits and a spectactular number of over 4 million classifieds on the website, 2dehands.be is the largest free classifieds website in Belgium.</p>\n<p>Like many websites, 2dehands.be previously only worked well on large screens common to desktop and laptop computers. With the web moving towards mobile, it is important that the website also works well on smaller screens. We were asked to adapt the site for these devices.</p>"
+      },
+      {
+        "__typename": "ImageRecord",
+        "image": {
+          "url": "https://www.datocms-assets.com/6524/1539871672-2dehands-devices.jpg",
+          "alt": null,
+          "width": 3868,
+          "height": 1540,
+          "format": "jpg"
+        },
+        "alt": "2dehands.be",
+        "fullWidth": false
+      },
+      {
+        "__typename": "TextSectionRecord",
+        "title": "",
+        "body": "<p>That was not all. Because of the sheer amount of visitors there&rsquo;s a large variety in the specifications of their (mobile) devices. 2dehands.be asked us to make it possible to place an ad from any device. This meant that we also needed to support &mdash; for instance &mdash; an old Blackberry phone over a slow 3G connection. On the other hand, we needed to offer a great user experience to visitors with the latest smartphones and tablets as well.</p>\n<p>The question was: how do we offer visitors with slower or older devices a website that &lsquo;always&rsquo; works? And how do we optimize the same website for the latest high-end models?</p>"
+      },
+      {
+        "__typename": "TextSectionRecord",
+        "title": "The solution: progressive enhancement",
+        "body": "<p>At De Voorhoede we like to work <em>agile</em>. So expectedly, during this project we implemented the scrum method. Our scrum team consisted of <a href=\"https://hike.one/\" target=\"_blank\" rel=\"noopener\">Hike One</a> designers and back-end developers of 2dehands.be. Because we had different disciplines working together in the same space, we were able to make quick decisions and strengthen each other&rsquo;s work.</p>\n<p>The biggest challenge was to make the new website run on a wide range of devices, while it also should feel <em>fast</em> on all these different devices. To accomplish this, we followed the rules of <em>progressive enhancement</em>.</p>\n<p>Progressive enhancement is not a technology. It&rsquo;s a process in which you make a basic version of the website available for older devices. It provides all functionality, but is stripped of visual polish and is less user friendly. This way, visitors with older devices can still use the complete website. The usability and aesthetic of the basic version is then gradually increased for modern devices.</p>\n<p>During the project, our work was reviewed by the <a href=\"http://www.filamentgroup.com/\" target=\"_blank\" rel=\"noopener\">Filament Group</a> from Boston, a group of experts in the field of progressive enhancement. Their conclusion:</p>"
+      }
+    ],
+    "metaData": {
+      "expertisesTitle": "Expertises",
+      "expertises": [
+        {
+          "title": "Development"
+        }
+      ],
+      "deliverableTitle": "Deliverables",
+      "deliverables": [
+        {
+          "title": "Website"
+        }
+      ],
+      "technologiesTitle": "Technologies",
+      "technologies": [
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "JS"
+        }
+      ],
+      "interestedTitle": "See result",
+      "interestedLinkUrl": "https://www.2dehands.be",
+      "interestedLinkLabel": "www.2dehands.be"
+    },
+    "quote": "Great job! Best website we’ve analyzed so far.",
+    "author": "Filament Group, Boston",
+    "getInTouchTitle": "Get in touch"
+  },
+  "pivots": []
+}
